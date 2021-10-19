@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  font-family: Century Gothic, sans-serif;
+}
+
+h1 {
+	text-align: center;
+}
+
+.chickentitre {
+	border: 1px solid black;
+  text-align: center;
+  padding: 2px;
+   position: absolute;
+  top: 0px;
+  right: 0;
+  width: 50%;
+}
+.sushititre {
+	border: 1px solid black;
+  text-align: center;
+  padding: 2px;
+   position: absolute;
+  top: 0px;
+  right: 0;
+  width: 30%;
+}
+.beeftitre {
+	border: 1px solid black;
+  text-align: center;
+  padding: 2px;
+   position: absolute;
+  top: 0px;
+  right: 0;
+  width: 50%;
+}
+
+.chickentitre {
+	background-color: pink;
+}
+
+.sushititre {
+	background-color: gold;
+}
+
+.beeftitre {
+	background-color: red;
+}
+
+.chickensection,
+.beefsection,
+.sushisection {
+  border: 1px solid black;
+  background-color: grey;
+  color: white;
+  position: relative;
+  width: 30%;
+  text-align: left;
+  float: left;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding: 20px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.chickensection,
+.beefsection {
+	width: 44.6%;
+	padding: 50px;
+	  }
+
+.sushisection {
+	width: 94.7%;
+	margin-top: 10px;
+	padding: 50px;
+}
+
+}
+
+@media (min-width: 200px) and (max-width: 767px) {
+	.chickensection,
+.beefsection,
+.sushisection {
+	width: 90%;
+	margin-top: 10px;
+	padding: 50px;
+}
+
+
+
